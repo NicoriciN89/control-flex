@@ -18,7 +18,7 @@ print("pric x qty:", order['price'], 'x', order['quantity'])
 print("total     :", order['total'])
 
 # Întrebați utilizatorul dacă are nevoie de livrare
-delivery_answer = input("Do you need delivery? (yes/no): ").lower()
+delivery_answer = input("Do you need delivery? (yes/no): ")
 
 # Verificați dacă totalul este mai mare de 300 și utilizatorul dorește livrarea
 if order['total'] > 300 and delivery_answer == 'yes':
